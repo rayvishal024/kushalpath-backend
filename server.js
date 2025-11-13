@@ -3,7 +3,7 @@ import connDB from './db/db-conn.js';
 import app from './app.js';
 
 // config ENV
-dotenv.config({ path: './.env' });
+dotenv.config();
 
 // PORT
 const PORT = process.env.PORT || 4000;
