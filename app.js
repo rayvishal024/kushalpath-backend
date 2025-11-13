@@ -30,7 +30,7 @@ app.use('/api/v1/admin', adminRoutes);
 app.use('/api/v1/user', userRoutes);
 
 // Default Route  
-app.get('/api/v1', (req, res) => {
+app.get('/', (req, res) => {
   res.send('This is kushalpath API Endpoint');
 });
 
